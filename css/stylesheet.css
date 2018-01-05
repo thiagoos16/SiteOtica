@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@font-face {
+    font-family: "Florentia;
+    src: url("fonts/Florentia-Thin-trial.ttf");
+}
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    margin: 0px;
+    font-family: "Raleway", "Florentia", sans-serif;
+}
+
+.barra_superior {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color:rgb(187, 187, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:14px;
+}
+
+.container {
+    max-width:960px;
+    width:100%;
+    margin:0 auto;
+}
+
+nav {
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+    float:right;
+    margin-top:50px;
+}
+nav a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+nav a.btn_destaque {
+    margin-left: 25px;
+}
+
+.btn_destaque, .metade input[type=submit] {
+    border:none;
+    background-color: rgb(255, 77, 77);
+    color:white;
+    padding:12px 40px;
+    border-radius:3px;
+    font-size:14px;
+    text-decoration: none;
+}
