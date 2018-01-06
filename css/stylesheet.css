@@ -137,6 +137,104 @@ nav a.btn_destaque {
 .um_terco img {
     width:35px;
 }
+
 .margem_esquerda {
     margin-left: 30px;
+}
+
+.sec_fale, .sec_onde {
+    height: 500px;
+    background-color: #FAFAFA;
+}
+
+.sec_fale .metade {
+    padding-top: 100px;
+}
+
+.metade {
+    width: 50%;
+    float: left;
+    line-height: 150%;
+    color: rgb(120, 120, 120);
+}
+.metade div, .metade address {
+    margin-left:20px;
+}
+.metade form {
+    line-height: 205%;
+}
+.metade form input[type=text], textarea {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width:63%;
+    background-color: #FAFAFA;
+    padding: 10px;
+}
+.metade textarea {
+    min-height: 100px;
+}
+.metade input[type=submit] {
+    float:right;
+}
+.metade img {
+    width: 35px;
+}
+.metade label {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
+    .barra_superior .container {
+        margin-left:10px;
+    }
+    
+    .logo {
+        width: 100%;
+    }
+    
+    nav {
+        float: none;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+    nav .btn_destaque {
+        margin-left: 0px !important
+    }
+    
+    .sec01 p, .sec01 .btn_destaque {
+        margin-left: 20px;
+    }
+    
+    .sec03 {
+        background-image: none;
+        height: 450px;
+        text-align: center;
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+    .sec03 p {
+        padding-top: 10px;
+    }
+    .largura40 {
+        width: 100%;
+        height: 450px;
+    }
+    .um_terco {
+        width:100%;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        padding-left: 20px;
+    }
+    .margem_esquerda {
+        margin-left: 0px;
+    }
+    .um_terco .logo {
+        width:50%;
+    }
+    .container_logo {
+        text-align: center;
+    }
+    
 }
