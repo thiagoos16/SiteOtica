@@ -30,18 +30,20 @@
         <section class="sec_fale">
             <div class="container">
                 <div class="metade">
-                    <form enctype="application/x-www-form-urlencoded" method="POST">
+                    <form name="form_contato" enctype="application/x-www-form-urlencoded" method="POST">
                         <label for="NomeCompleto">Nome</label>
-                        <input id="NomeCompleto" type="text" placeholder="Digite seu nome Completo"/>
+                        <input class="none" id="nomeCompleto"  name="nomeCompleto" type="text" placeholder="Digite seu nome Completo"/>
                         <br />
                         <label for="Email">Email</label>
-                        <input id="Email" type="text" name="Email" placeholder="Digite seu Email"/>
+                        <input id="email" type="text" name="email" placeholder="Digite seu Email"/>
                         <br />
                         <label for="Telefone">Telefone</label>
-                        <input id="Telefone" type="text" name="Telefone" placeholder="Digite seu Telefone" />
+                        <input id="telefone" type="text" name="telefone" placeholder="Digite seu Telefone" />
                         <br />
                         <label for="Mensagem">Mensagem</label>
-                        <textarea name="Mensagem"> </textarea>
+                        <textarea id="mensagem" name="mensagem"> </textarea>
+                        <br />
+                        <span class="texto"></span>
                         <br />
                         <input type="submit" value="Enviar"/>
                     </form>
