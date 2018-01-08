@@ -243,8 +243,8 @@ nav a.btn_destaque {
     display: none;
     position: fixed;
     width: 400px;
-    height: 200px;
-    background-color: aliceblue;
+    min-height: 200px;
+    background-color: white;
     top:50%;
     margin-top: -100px;
     left:50%;
@@ -254,6 +254,7 @@ nav a.btn_destaque {
 }
 .modal input[type=text] {
     width:95%;
+    background-color: white;
 }
 .modal a {
     float: right;
@@ -261,4 +262,13 @@ nav a.btn_destaque {
     text-decoration: none;
     color: black;
     cursor: pointer;
+}
+
+span.nao_valido {
+    color: red;
+    display: none;
+}
+
+input.nao_valido{
+    border-bottom: 1px solid red !important;
 }
