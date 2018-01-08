@@ -238,3 +238,27 @@ nav a.btn_destaque {
     }
     
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    top:50%;
+    margin-top: -100px;
+    left:50%;
+    margin-left: -200px;
+    padding:20px;
+    border-radius:4px; 
+}
+.modal input[type=text] {
+    width:95%;
+}
+.modal a {
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
